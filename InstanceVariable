@@ -1,0 +1,14 @@
+
+class InstanceVariable
+{
+	int a=10;
+	public static void main(String args[])
+	{
+		//System.out.println("Instance "+a);
+		InstanceVariable iv=new InstanceVariable();
+		System.out.println("Instance Variable "+iv.a);
+	
+		InstanceVariable iv2=new InstanceVariable();
+		System.out.println("Instance Variable "+iv2.a);
+	}
+}
